@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular TreeView With CheckBox</title>
+    <script src="angular.min.js"></script>
+    <script src="iAngular.js"></script>
+    <script src="../release/treeView.js"></script>
+</head>
+<body ng-app="myApp" data-ng-controller="treeViewController">
+
+<tree-view
+        data="{{data}}"
+        ng-model="selectItems"
+>
+</tree-view>
+{{selectItems}}
+
+</body>
+</html>
