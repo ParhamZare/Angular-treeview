@@ -27,7 +27,7 @@ Attributes of angular treeview are below.
         >
 </tree-view>
 ```
-#LocalDate:
+#LocalData:
 ```
 <tree-view
             data="[[lstItems]]"
