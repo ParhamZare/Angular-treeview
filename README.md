@@ -19,20 +19,20 @@ Attributes of angular treeview are below.
 #Here is a simple example.
 #Url And get Type
 ```
-<pre><tree-view
+<tree-view
             fetch-url="/data/lst"
             fetch-type="get"
             ng-model="selectItems"
             my-selection='[{"id":158,"name":"items","children":[]}]'
-        ></pre>
+        >
 </tree-view>
 ```
 #LocalDate:
 ```
-<pre><tree-view
+<tree-view
             data="[[lstItems]]"
             ng-model="selectItems"
             my-selection='[{"id":158,"name":"items","children":[]}]'
         >
-</tree-view></pre>
+</tree-view>
 ```
