@@ -3,7 +3,9 @@ Angular TreeViewNode With Checkbox
 #Installation
 Copy the script into your project and add a script and link tag to your page.
 Add a dependency to your application module.
+```
 <pre>angular.module('myApp', ['treeView']);</pre>
+```
 
 #Usage
 Attributes of angular treeview are below.
@@ -16,6 +18,7 @@ Attributes of angular treeview are below.
 
 #Here is a simple example.
 #Url And get Type
+```
 <pre><tree-view
             fetch-url="/data/lst"
             fetch-type="get"
@@ -23,10 +26,13 @@ Attributes of angular treeview are below.
             my-selection='[{"id":158,"name":"items","children":[]}]'
         ></pre>
 </tree-view>
+```
 #LocalDate:
+```
 <pre><tree-view
             data="[[lstItems]]"
             ng-model="selectItems"
             my-selection='[{"id":158,"name":"items","children":[]}]'
         >
 </tree-view></pre>
+```
